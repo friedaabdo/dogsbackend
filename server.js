@@ -2,7 +2,7 @@
 // Environmental Variables
 ///////////////////////////
 require("dotenv").config();
-const { PORT = 3000, NODE_ENV = "development" } = process.env;
+const { PORT = 4500, NODE_ENV = "development" } = process.env;
 
 //MONGO CONNECTION
 const mongoose = require("./DB/conn");
